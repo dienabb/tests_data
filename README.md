@@ -38,3 +38,42 @@ Voici le schéma du repo :
 |-- /sorties_word_rft
 |-- README.md
 ```
+
+## Installations et dépendances
+Pour constituer notre repo :   
+
+1- Nous avons d'abord definie notre architechture de repo dont nous avons besoin comme le montre le schéma ci-dessus.
+
+2- Ensuite, nous avons pointé ver le dossier principal du repo 
+```cd /chemin/vers/votre/projet```
+
+3- Puis créer notre environnement virtuel qui va accueillir notre programme python et ses dépendances. 
+```python -m venv /chemin/vers/nouvel/environnement```
+
+4- Par exemple, si vous voulez créer l'environnement virtuel dans le répertoire de votre projet, la commande serait :
+```python -m venv.venv```
+
+5- Activez l'environnement virtuel : Activez l'environnement virtuel en utilisant la commande appropriée selon votre système d'exploitation.
+```.\.venv\Scripts\activate``` et pour désactiver l'environnement :
+```.\.venv\Scripts\Deactivate```
+
+Et enfin, quand la MAJ du code python est terminée, vous pourrez créez le fichier de ```requirements.txt``` avec les commandes suivantes :  
+
+```pip freeze > requirements.txt```
+```git add requirements.txt```
+```git commit -m "Add requirements.txt"```
+```git push```  
+
+
+Rques : Si vous ne souhaitez pas inclure tous les paquets installés dans votre projet, mais seulement ceux qui sont effectivement utilisés, vous pouvez utiliser pipreqs. pipreqs analyse votre code pour identifier les paquets importés et génère un fichier requirements.txt plus concis. Pour l'utiliser, installez pipreqs et exécutez.
+
+```
+pip install pipreqs
+pipreqs /chemin/vers/votre/projet
+```  
+
+Ensuite :
+```pip install -r requirements.txt```
+
+
+
