@@ -54,15 +54,15 @@ Pour constituer notre repo :
 ```python -m venv.venv```
 
 5- Activez l'environnement virtuel : Activez l'environnement virtuel en utilisant la commande appropriée selon votre système d'exploitation.
-```.\.venv\Scripts\activate``` et pour désactiver l'environnement :
-```.\.venv\Scripts\Deactivate```
+```.\.venv\Scripts\activate``` et pour désactiver l'environnement :  
+```.\.venv\Scripts\Deactivate```  
 
 Et enfin, quand la MAJ du code python est terminée, vous pourrez créez le fichier de ```requirements.txt``` avec les commandes suivantes :  
 
-```pip freeze > requirements.txt```
-```git add requirements.txt```
-```git commit -m "Add requirements.txt"```
-```git push```  
+```pip freeze > requirements.txt```  
+```git add requirements.txt```  
+```git commit -m "Add requirements.txt"```  
+```git push```    
 
 
 Rques : Si vous ne souhaitez pas inclure tous les paquets installés dans votre projet, mais seulement ceux qui sont effectivement utilisés, vous pouvez utiliser pipreqs. pipreqs analyse votre code pour identifier les paquets importés et génère un fichier requirements.txt plus concis. Pour l'utiliser, installez pipreqs et exécutez.
