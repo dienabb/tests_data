@@ -15,5 +15,5 @@ Pour lancer une application streamlit en local, il faudra appliquer les étapes 
 - Puis saisir depuis le terminal la commande suivante :
 
 ```python
-streamlit run code.py
+streamlit run app_compile_word.py
 ```
