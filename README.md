@@ -54,6 +54,13 @@ Pour constituer notre repo :
 4- Par exemple, si vous voulez créer l'environnement virtuel dans le répertoire de votre projet, la commande serait :
 ```python -m venv.venv```
 
+NB : Normalement lors de la création de l'environnement virtuel, il y a eu un fichier .gitignore (txt) qui a été créé. Il faudra rajouter la commande suivante dans de fichier :   
+```
+# Exemple de contenu pour.gitignore
+venv/ 
+```  
+Donc le fait d'ajouter dans le gitignore ce bout de code précédent permet de pouvoir intégré le .venv dans le repo.
+
 5- Activez l'environnement virtuel : Activez l'environnement virtuel en utilisant la commande appropriée selon votre système d'exploitation.
 ```.\.venv\Scripts\activate``` et pour désactiver l'environnement :  
 ```.\.venv\Scripts\Deactivate```  
