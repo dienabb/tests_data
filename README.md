@@ -40,6 +40,7 @@ Voici le schéma du repo :
 ```
 
 ## Installations et dépendances
+### Démarches à suivre
 Pour constituer notre repo :   
 
 1- Nous avons d'abord definie notre architechture de repo dont nous avons besoin comme le montre le schéma ci-dessus.
