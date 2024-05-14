@@ -45,13 +45,13 @@ Pour constituer notre repo :
 
 1- Nous avons d'abord definie notre architechture de repo dont nous avons besoin comme le montre le schéma ci-dessus.
 
-2- Ensuite, nous avons pointé ver le dossier principal du repo 
+2- Ensuite, nous avons pointé ver le dossier principal du repo   
 ```cd /chemin/vers/votre/projet```
 
-3- Puis créer notre environnement virtuel qui va accueillir notre programme python et ses dépendances. 
+3- Puis créer notre environnement virtuel qui va accueillir notre programme python et ses dépendances.  
 ```python -m venv /chemin/vers/nouvel/environnement```
 
-4- Par exemple, si vous voulez créer l'environnement virtuel dans le répertoire de votre projet, la commande serait :
+4- Par exemple, si vous voulez créer l'environnement virtuel dans le répertoire de votre projet, la commande serait :  
 ```python -m venv.venv```
 
 NB : Normalement lors de la création de l'environnement virtuel, il y a eu un fichier .gitignore (txt) qui a été créé. Il faudra rajouter la commande suivante dans de fichier :   
