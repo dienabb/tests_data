@@ -1,8 +1,8 @@
 # UTILISATIONS 📣
+Ouvrir l'application 🚀 en cliquant [ici]()
 
 
-
-# DÉVELOPPENTS
+# DÉVELOPPENTS 🧰🛠️
 ### Concaténation de plusieurs fichiers word
 
 Compilation de rapports words.  
@@ -13,7 +13,7 @@ Avant tout d'abord pour lancer la concaténation de documents depuis Streamlit, 
 
 L'application streamlit(python) prends tous les documents word et les concatène et puis donne un rendud en word.
 
-## Compilation de rapports word 🛠️
+## Compilation de rapports word 🏃🏻
 
 Pour lancer une application streamlit en local, il faudra appliquer les étapes suivantes :
 
@@ -44,7 +44,7 @@ Voici le schéma du repo :
 ```
 
 ### Installations et dépendances 💻
-#### Démarches à suivre
+#### Démarches à suivre 💡
 Pour constituer notre repo :   
 
 **1**- Nous avons d'abord definie notre architechture de repo dont nous avons besoin comme le montre le schéma ci-dessus.
@@ -58,7 +58,7 @@ Pour constituer notre repo :
 **4**- Par exemple, si vous voulez créer l'environnement virtuel dans le répertoire de votre projet, la commande serait :  
 ```python -m venv.venv```
 
-**NB** : Normalement lors de la création de l'environnement virtuel, il y a eu un fichier .gitignore (txt) qui a été créé. Il faudra rajouter la commande suivante dans de fichier :   
+**NB** 💡: Normalement lors de la création de l'environnement virtuel, il y a eu un fichier .gitignore (txt) qui a été créé. Il faudra rajouter la commande suivante dans de fichier :   
 ```
 # Exemple de contenu pour.gitignore
 venv/ 
@@ -77,7 +77,7 @@ Et enfin, quand la MAJ du code python est terminée, vous pourrez créez le fich
 ```git push```      
 
 
-Rques : Si vous ne souhaitez pas inclure tous les paquets installés dans votre projet, mais seulement ceux qui sont effectivement utilisés, vous pouvez utiliser pipreqs. pipreqs analyse votre code pour identifier les paquets importés et génère un fichier requirements.txt plus concis. Pour l'utiliser, installez pipreqs et exécutez.
+**Rques** 💡: Si vous ne souhaitez pas inclure tous les paquets installés dans votre projet, mais seulement ceux qui sont effectivement utilisés, vous pouvez utiliser pipreqs. pipreqs analyse votre code pour identifier les paquets importés et génère un fichier requirements.txt plus concis. Pour l'utiliser, installez pipreqs et exécutez.
 
 ```pip install pipreqs```  
 ```pipreqs /chemin/vers/votre/projet```  
